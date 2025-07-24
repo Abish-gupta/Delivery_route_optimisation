@@ -1,0 +1,7 @@
+module.exports = {
+  plugins: {
+    tailwindcss: {},
+    autoprefixer: {},
+  },
+  base : "/Delivery_route_optimisation"
+}
