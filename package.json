@@ -1,6 +1,5 @@
 {
   "name": "delivery-optimization-dashboard",
-  "homepage": "https://abish-gupta.github.io/Delivery_route_optimisation",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
