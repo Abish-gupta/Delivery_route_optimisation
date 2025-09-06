@@ -55,7 +55,7 @@ body {
 .connector-line {
     width: 4px;
     height: 50px;
-    background: linear-gradient(180deg, #667eea 0%, #764ba2 100%);
+    background: white;
     border-radius: 2px;
     position: relative;
     animation: flowPulse 2s ease-in-out infinite;
