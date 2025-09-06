@@ -13,12 +13,6 @@
             <p class="subtitle">Interactive Project Flow Diagram</p>
         </header>
 
-        <!-- Start Here Arrow -->
-        <div class="start-indicator">
-            <div class="start-arrow">⬇</div>
-            <div class="start-label">Start Here</div>
-        </div>
-
         <main class="flow-diagram">
             <!-- Data Input Section -->
             <section class="flow-section" id="data-input">
@@ -48,6 +42,12 @@
                 </div>
             </section>
 
+            <!-- Flow Arrow 1 -->
+            <div class="flow-arrow" aria-label="Next: Backend Processing">
+                <div class="arrow-icon">⬇</div>
+                <div class="arrow-label">Next</div>
+            </div>
+
             <!-- Backend Processing Section -->
             <section class="flow-section" id="backend-processing">
                 <div class="section-header" onclick="toggleSection('backend-processing')">
@@ -76,6 +76,12 @@
                 </div>
             </section>
 
+            <!-- Flow Arrow 2 -->
+            <div class="flow-arrow" aria-label="Next: Route Calculation & Optimization">
+                <div class="arrow-icon">⬇</div>
+                <div class="arrow-label">Next</div>
+            </div>
+
             <!-- Route Calculation Section -->
             <section class="flow-section" id="route-calculation">
                 <div class="section-header" onclick="toggleSection('route-calculation')">
@@ -103,6 +109,12 @@
                     </div>
                 </div>
             </section>
+
+            <!-- Flow Arrow 3 -->
+            <div class="flow-arrow" aria-label="Next: API & Frontend Integration">
+                <div class="arrow-icon">⬇</div>
+                <div class="arrow-label">Next</div>
+            </div>
 
             <!-- API & Frontend Section -->
             <section class="flow-section" id="api-frontend">
