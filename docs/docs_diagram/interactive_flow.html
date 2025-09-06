@@ -12,6 +12,7 @@
             <h1>🚚 Delivery Route Optimization System</h1>
             <p class="subtitle">Interactive Project Flow Diagram</p>
         </header>
+        
         <main class="flow-diagram">
             <!-- Data Input Section -->
             <section class="flow-section" id="data-input">
@@ -40,13 +41,12 @@
                     </div>
                 </div>
             </section>
-
-            <!-- Flow Arrow 1 -->
-            <div class="flow-arrow" aria-label="Next: Backend Processing">
-                <div class="arrow-icon">⬇</div>
-                <div class="arrow-label">Next</div>
+            
+            <!-- Flow Connector 1 -->
+            <div class="flow-connector" aria-label="Connecting to Backend Processing">
+                <div class="connector-line"></div>
             </div>
-
+            
             <!-- Backend Processing Section -->
             <section class="flow-section" id="backend-processing">
                 <div class="section-header" onclick="toggleSection('backend-processing')">
@@ -74,13 +74,12 @@
                     </div>
                 </div>
             </section>
-
-            <!-- Flow Arrow 2 -->
-            <div class="flow-arrow" aria-label="Next: Route Calculation & Optimization">
-                <div class="arrow-icon">⬇</div>
-                <div class="arrow-label">Next</div>
+            
+            <!-- Flow Connector 2 -->
+            <div class="flow-connector" aria-label="Connecting to Route Calculation & Optimization">
+                <div class="connector-line"></div>
             </div>
-
+            
             <!-- Route Calculation Section -->
             <section class="flow-section" id="route-calculation">
                 <div class="section-header" onclick="toggleSection('route-calculation')">
@@ -108,13 +107,12 @@
                     </div>
                 </div>
             </section>
-
-            <!-- Flow Arrow 3 -->
-            <div class="flow-arrow" aria-label="Next: API & Frontend Integration">
-                <div class="arrow-icon">⬇</div>
-                <div class="arrow-label">Next</div>
+            
+            <!-- Flow Connector 3 -->
+            <div class="flow-connector" aria-label="Connecting to API & Frontend Integration">
+                <div class="connector-line"></div>
             </div>
-
+            
             <!-- API & Frontend Section -->
             <section class="flow-section" id="api-frontend">
                 <div class="section-header" onclick="toggleSection('api-frontend')">
@@ -142,13 +140,12 @@
                     </div>
                 </div>
             </section>
-
-            <!-- Flow Arrow 4 (NEW) -->
-            <div class="flow-arrow" aria-label="Next: Map Display & Real-time Tracking">
-                <div class="arrow-icon">⬇</div>
-                <div class="arrow-label">Next</div>
+            
+            <!-- Flow Connector 4 -->
+            <div class="flow-connector" aria-label="Connecting to Map Display & Real-time Tracking">
+                <div class="connector-line"></div>
             </div>
-
+            
             <!-- Display & Tracking Section -->
             <section class="flow-section" id="display-tracking">
                 <div class="section-header" onclick="toggleSection('display-tracking')">
@@ -176,13 +173,12 @@
                     </div>
                 </div>
             </section>
-
-            <!-- Flow Arrow 5 (NEW) -->
-            <div class="flow-arrow" aria-label="Next: Dashboard & Analytics">
-                <div class="arrow-icon">⬇</div>
-                <div class="arrow-label">Next</div>
+            
+            <!-- Flow Connector 5 -->
+            <div class="flow-connector" aria-label="Connecting to Dashboard & Analytics">
+                <div class="connector-line"></div>
             </div>
-
+            
             <!-- Dashboard & Reports Section -->
             <section class="flow-section" id="dashboard-reports">
                 <div class="section-header" onclick="toggleSection('dashboard-reports')">
@@ -211,7 +207,7 @@
                 </div>
             </section>
         </main>
-
+        
         <footer class="main-footer">
             <div class="results-summary">
                 <h2>🎯 Key Achievement Metrics</h2>
@@ -236,7 +232,7 @@
             </div>
         </footer>
     </div>
-
+    
     <script>
         function toggleSection(sectionId) {
             const section = document.getElementById(sectionId);
@@ -253,7 +249,7 @@
                 section.classList.remove('expanded');
             }
         }
-
+        
         // Initialize all sections as COLLAPSED by default
         document.addEventListener('DOMContentLoaded', function() {
             const sections = document.querySelectorAll('.flow-section');
@@ -265,7 +261,7 @@
                 section.classList.remove('expanded');
             });
         });
-
+        
         // Add smooth scrolling for better UX
         document.querySelectorAll('.section-header').forEach(header => {
             header.addEventListener('click', function() {
