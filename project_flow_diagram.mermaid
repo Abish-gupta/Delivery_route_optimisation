@@ -1,7 +1,10 @@
 flowchart TD
-    A[User Uploads Delivery Data] --> B[Python Backend Processes Input]
-    B --> C[Routing Algorithm Calculates Optimal Routes]
-    C --> D[API Sends Routes to Frontend]
-    D --> E[JavaScript Frontend Displays Routes on Map]
-    E --> F[Vehicle Tracking and Status Updates]
-    F --> G[Dashboard/Analytics ]
+    style A fill:#f5f5f5,stroke:#333,stroke-width:2px
+    style B fill:#e4f9f5,stroke:#333,stroke-width:2px
+    style E fill:#ffebcc,stroke:#f90,stroke-width:2px
+
+    A[User Uploads Data] -->|Clean/Validate| B[Backend Processing]
+    B -->|Route Calc| C[Routing Algorithm]
+    C --> D[API -> Frontend]
+    D --> E[Map Display + Tracking]
+    E --> F[Dashboard/Reports]
