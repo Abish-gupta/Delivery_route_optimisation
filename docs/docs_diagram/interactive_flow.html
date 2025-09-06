@@ -12,7 +12,6 @@
             <h1>🚚 Delivery Route Optimization System</h1>
             <p class="subtitle">Interactive Project Flow Diagram</p>
         </header>
-
         <main class="flow-diagram">
             <!-- Data Input Section -->
             <section class="flow-section" id="data-input">
@@ -144,6 +143,12 @@
                 </div>
             </section>
 
+            <!-- Flow Arrow 4 (NEW) -->
+            <div class="flow-arrow" aria-label="Next: Map Display & Real-time Tracking">
+                <div class="arrow-icon">⬇</div>
+                <div class="arrow-label">Next</div>
+            </div>
+
             <!-- Display & Tracking Section -->
             <section class="flow-section" id="display-tracking">
                 <div class="section-header" onclick="toggleSection('display-tracking')">
@@ -171,6 +176,12 @@
                     </div>
                 </div>
             </section>
+
+            <!-- Flow Arrow 5 (NEW) -->
+            <div class="flow-arrow" aria-label="Next: Dashboard & Analytics">
+                <div class="arrow-icon">⬇</div>
+                <div class="arrow-label">Next</div>
+            </div>
 
             <!-- Dashboard & Reports Section -->
             <section class="flow-section" id="dashboard-reports">
@@ -243,13 +254,15 @@
             }
         }
 
-        // Initialize all sections as expanded
+        // Initialize all sections as COLLAPSED by default
         document.addEventListener('DOMContentLoaded', function() {
             const sections = document.querySelectorAll('.flow-section');
             sections.forEach(section => {
                 const content = section.querySelector('.section-content');
-                content.style.display = 'block';
-                section.classList.add('expanded');
+                const icon = section.querySelector('.toggle-icon');
+                content.style.display = 'none';
+                icon.textContent = '▼';
+                section.classList.remove('expanded');
             });
         });
 
