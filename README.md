@@ -1,7 +1,7 @@
 
 # 🚀 [Visual Case Study (click to view)](https://abish-gupta.github.io/Delivery_route_optimisation/visual_case_study/)
 
-# 📊 [Dashboard(click to view)](deliveryroute.netlify.app/)
+# 📊 [Dashboard(click to view)](https://deliveryroute.netlify.app/)
 
 # 🎴 [Interactive Project Flow (click to view)](https://abish-gupta.github.io/Delivery_route_optimisation/docs_diagram/interactive_flow.html)
 
