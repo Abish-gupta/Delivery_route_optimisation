@@ -56,7 +56,7 @@ We built Delivery Route Optimisation—a unified tool that automates route plann
 
 ## 📞 Get Help / More Info
 
-[Schedule a call](https://calendar.app.google/7z5QueuRqQaQTiRBA) or email [abhiguptasg@gmail.com](mailto:abhiguptasg@gmail.com)
+[Schedule a call](https://calendar.app.google/7z5QueuRqQaQTiRBA) or Visit [abishgupta.com](https://abishgupta.com)
 
 ---
 
