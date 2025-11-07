@@ -1,7 +1,4 @@
 # Delivery Route Optimisation
-
-**Demo Mode: Backend disabled – only UI/UX visible**
-
 ---
 
 ## 🔗 Project Hub (All-in-One Links)
